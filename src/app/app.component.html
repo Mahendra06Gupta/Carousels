@@ -1,0 +1,6 @@
+<img class="scroll" src="/assets/images/RoundScroll.svg"/>
+<div class="carousel">
+	<a class="carousel-item" [style.top]="topposition[i] " href="#{{hrefs[i]}}!" *ngFor="let item of items;let i = index"> <!---->
+		<img src={{item}}/>
+	</a>
+</div>

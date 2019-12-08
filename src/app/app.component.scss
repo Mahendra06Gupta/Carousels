@@ -1,0 +1,55 @@
+.scroll {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.carousel {
+  // height: 100%;
+  position: absolute;
+  bottom: 22em;
+  // .items {
+  //   height: 100px;
+  //   position: absolute;
+  //   bottom: 100px;
+  //   width: 100%;
+    // img {
+    //   width: auto;
+    // }
+    // a {
+    //   height: auto;
+    //   width: auto;
+    // }
+  //     // transform: inherit !important;
+  //     z-index: 0 !important;
+  //     opacity: 1 !important;
+  //     visibility: visible !important;
+  //     position: relative;
+  //     padding: 17px;
+  //     &:nth-child(1), &:nth-child(5) {
+  //       top: 10px;
+      // };
+  //     &:nth-child(2), &:nth-child(4) {
+  //       top: -25px;
+  //     };
+  //     &:nth-child(3) {
+  //       top: -50px;
+  //     }
+  //   }
+  // }
+}
+
+// .carousel .carousel-item>img{
+//   width: auto !important;
+// }
+.carousel .carousel-item {
+  width: 150px !important;
+  height: 150px !important;
+  left: 10px;
+  // padding: 65px;
+  z-index: 1 !important;
+  opacity: 1 !important;
+  // top: 25px;
+}
+.carousel .carousel-item.active {
+  top: -90px;
+}
